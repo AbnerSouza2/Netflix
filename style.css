@@ -1,0 +1,385 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+
+    
+}
+#titulo{
+    position: relative;
+    text-align: center;
+    margin-top: 247px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.titulo1{
+  
+    margin-left: 32%;
+    font-size: 32px;
+    max-width: 685px; 
+    height: 150px;
+}
+.titulo2{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.titulo3{
+    font-size: 15px;
+
+}
+.button_titutlo{
+    top: 311px;
+    width: 199px;
+    height: 63px;
+    right: 610px;
+    position: absolute;
+    font-size: 28px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    border: red;
+    
+    
+}
+.entrarmenu{
+    position: absolute;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    width: 80px;
+    height: 38px;
+    border-radius: 5px;
+    font-size: 16px;
+    right: 77px;
+    top: 26px;
+}
+.titulo_email>input{   
+    display: inline-block;
+    position: absolute;
+    height: 57px;
+    width: 25%;
+    left:620px;
+}
+.logonetflix{
+   
+    top: 0px;
+    position: absolute;
+    max-width: 220px;
+    margin-left: 20px;
+}
+.linguagem{
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: rgba(0,0,0,.2);
+    height: 38px;
+    position: absolute;
+    border: 1px solid white;
+    top: 25px;
+    right: 195px;
+    border-radius: 5px;
+    
+    
+}
+
+.fundonetflix>img{
+    position: absolute;
+    width: 100%;
+    height: 78%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: cover;
+    border-bottom: 8px solid #222;      
+   
+}
+.propa1{
+    text-align: left;
+    position: absolute;
+    margin-top: 345px;
+    margin-left: 395px;
+    max-width: 550px;
+    
+}
+.propa1>h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.propa1>h2{
+    font-weight: 400;
+}
+.tela1{
+    margin-top: 250px;
+    position: relative;
+    margin-left: 650px;
+    height: 10%;
+    width: 28%;
+    z-index: 2;
+}
+.sep2{
+    border-bottom: 8px solid #222;   
+    margin-top: 100px;
+    
+}
+.sep3{
+    border-bottom: 8px solid #222;
+    margin-top: 530px;  
+}
+
+.sep4{
+    border-bottom: 8px solid #222;
+    margin-top: 10px;  
+}
+
+.sep5{
+    border-bottom: 8px solid #222;
+    margin-top: 580px;  
+}
+.sep6{
+    border-bottom: 8px solid #222;
+    margin-top: 70px;  
+}
+
+.propa2{
+    text-align: left;
+    position: absolute;
+    margin-top: 80px;
+    right: 400px;
+    max-width: 550px;
+    
+}
+.propa2>h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.propa2>h2{    
+    font-weight: 400;
+}
+.baner1{
+    position: absolute;
+    left: 320px;
+    margin-top: 28px;
+    width: 27%;
+  
+}
+.propa3{
+    text-align: left;
+    position: absolute;
+    margin-top: 175px;
+    left: 375px;
+    max-width: 580px;
+    
+
+}
+.tela3{
+    position: relative;
+    margin-left: 700px;
+    margin-top: 80px;
+    text-align: right;
+    z-index: 2;
+    width: 28%;
+    
+    
+}
+.video-tv1{
+    margin-top: 330px;
+    position: absolute;
+    right: 430px;
+    max-width: 395px;
+    z-index: 1;
+
+}
+.video-tv2{
+    margin-top: 120px;
+    position: absolute;
+    right: 440px;
+    max-width: 325px;
+    z-index: 1;
+    
+   
+}
+.propa3>h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.propa3>h2{
+    max-width: 500px;
+    font-weight: 400;
+}
+.propa4{
+    text-align: left;
+    position: absolute;
+    margin-top: 150px;
+    right: 400px;
+    max-width: 550px;
+
+}
+.propaimg4{
+    position: absolute;
+    left: 300px;
+    margin-top: 80px;
+
+}
+.propa4>h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.propa4>h2{
+    max-width: 500px;
+    font-weight: 400;
+
+}
+
+#thin-x{
+    position: absolute;
+    transform:translateY(-50%) rotate(-45deg);
+    width: 2%;
+    background: #303030;
+    fill: white;
+    margin-top: 17px;
+    right: 570px;
+    
+    
+}
+
+.perguntas{
+    font-size: 24px;
+    padding: 25px;
+}
+
+.question {
+    background-color: #303030;
+    padding: 20px 0;
+    margin-top: 10px;
+    width: 43%;
+    margin-left: 28%;
+    
+    
+
+       
+}
+label,p{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 25px;
+    cursor: pointer;
+    
+}
+
+.question input,
+.question .answer { display: none }
+
+.question label {
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  width: 100%
+}
+
+.question input:checked ~ .answer {
+  display: block
+}
+h3{
+    margin-top: 70px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.titulo_email2>input{   
+    display: inline-block;
+    position: absolute;
+    height: 57px;
+    width: 25%;
+    left:620px;
+    
+}
+.button_titutlo2{
+    
+    width: 180px;
+    height: 63px;
+    left: 240px;
+    position: relative;
+    font-size: 28px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    border: red; 
+}
+
+.duvidas-tel{
+    margin-top: 65px;
+    width: 245px;
+    margin-left: 510px;
+    color: #737373;
+    font-size: 1em;
+    top: 85px;
+}
+.duvidas-tel1{
+    text-decoration: none;
+    color: #737373;
+    font-size: 1em;
+    
+}
+ul{ 
+    left: 460px;
+    position: relative;
+    width: 47%;
+    font-size: 13px;
+    height: 200px;
+    
+    
+   
+}
+a{
+    text-decoration: none;
+    color: #737373;
+}
+li{
+    text-align: left;
+    width: 200px;
+    display: flex;
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+}
+.folter17{
+    display: flex;
+    right: 0px;
+}
+.linguagem2{
+    font-size: 18px;
+    text-align: center;
+    padding: 12px;   
+    color: #999;
+    background: rgba(0,0,0,.2);
+    height: 50px;
+    position: absolute;
+    border: 1px solid #333;
+    width: 150px;
+    left: 505px;
+    border-radius: 5px;
+    
+}
+.netflixbrasil{
+    display: flex;
+    font-size: 13px;
+    left: 505px;
+    top: 80px;
+    position: relative;
+    color: #737373;
+    width: 90px;
+    height: 55px;
+}
+.fundoescuro{
+    background: rgba(0,0,0,.5);
+    background-image: linear-gradient(0deg,transparent 95%,rgba(0,0,0,.7)),radial-gradient(50% 100%,transparent 0,rgba(0,0,0,.7) 100%);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
